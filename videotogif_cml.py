@@ -22,13 +22,9 @@ else:
 		time_start = float(sys.argv[3])
 		videoclip = videoclip.subclip(time_start)
 		
-		
 	if len(sys.argv) > 5:
 		videoclip = videoclip.resize(float(sys.argv[5]))
-		
-		
-		
-		
+	
 	output_path = "output.gif"
 
 	if len(sys.argv) > 6:
